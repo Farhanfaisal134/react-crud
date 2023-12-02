@@ -33,7 +33,9 @@ const Create = () => {
           <input className='border border-gray-500 px-3 py-2 rounded-sm outline-none text-xl'
             onChange={(e) => setEmail(e.target.value)} />
         </div>
-        <button type="submit" className="bg-blue-500 text-white text-xl border-none outline-none px-3 py-2 rounded-md shadow-md max-w-fit mx-auto mt-3" onClick={handleSubmit}>Submit</button>
+        <div className="flex gap-2 items-center ">
+          <button type="submit" className="bg-blue-500 text-white text-xl border-none outline-none px-3 py-2 rounded-md shadow-md  mt-3" onClick={handleSubmit}>Submit</button>
+        </div>
       </form >
     </div >
   )
